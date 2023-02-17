@@ -120,8 +120,8 @@ public class Main {
         //  +((int) (Math.random() * 7)+1) + " - A New Hope"
         //  Surasti ir atspausdinti epizodo numerį.
 
-        String txt7 = "Star Wars: Episode "+ " ".repeat( (int) (Math.random() * 10))+((int) (Math.random() * 7)+1) + " - A New Hope";
-
+        String txt7 = "Star Wars: Episode "+ " ".repeat( (int) (Math.random() * 10)) + ((int) (Math.random() * 7)+1) + " - A New Hope";
+        // si dalis " ".repeat( (int) (Math.random() * 10))    kartoja random tarpu kieki
         System.out.println(txt7);//isskaiciavau, kad epizodas 19:)
         System.out.println("Teksto ilgis:" + txt7.length());
         System.out.println(txt7.substring(19));
