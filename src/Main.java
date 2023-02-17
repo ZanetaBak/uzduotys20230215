@@ -62,7 +62,7 @@ public class Main {
         String name4 = "Adriano";
         String surname4 = "Celentano";
         System.out.println(name4 + " " + surname4);
-        String newstr4 = name4.substring(0, 1) + surname4.substring(0, 1);
+        String newstr4 = name4.substring(name4.length()-3) + surname4.substring(surname4.length()-3);
 
         System.out.println(newstr4);
 
